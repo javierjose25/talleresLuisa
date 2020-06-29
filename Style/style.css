@@ -1,0 +1,136 @@
+body{
+    font-family: "Sourcer Sans Pro", sans-serif;
+    margin: 0;
+    background-color: #ff0060;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: normal;
+    justify-content: center;
+    display: flex;
+}
+ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+figure{
+    margin: 0;
+}
+
+.header{
+    background-color: #d34a78;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    height: inherit;
+}
+h2{
+margin-left: -300px;
+text-align: center;
+}
+.menu{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    
+}
+.header ol{
+display: flex;
+height: inherit;
+align-items: center;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.containerOne{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+
+strong{
+    font-style:italic;
+    font-size: 50px;
+    color: white
+    
+}
+#s1{
+    margin-left: 330px;
+}
+#s2{
+    margin-left: 340px;
+}
+#s3{
+    margin-left: 300px;
+
+}
+#s4{
+    margin-right: 70px;
+}
+table{
+    background-color: #f58da6;
+    border-color: blue;
+}
+th{
+    background-color: #d34a78
+}
+.card-img-top{
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #edb1be;
+    margin-left: 130px;
+}
+iframe{
+display: flex;
+justify-content: center;
+
+}
+
+footer{
+    background: #d34a78;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.content-foo p{
+    color: #ccc;
+   
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin:20px 0 0 0;
+    color: #9e9797
+}
